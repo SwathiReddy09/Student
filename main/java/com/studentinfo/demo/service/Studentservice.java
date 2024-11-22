@@ -25,4 +25,14 @@ public class Studentservice {
 	 public String deleteId(int id) {
 		 return studentDao.deleteId(id);
 	 }
+
+	public List<StudentEntity> getAllDetails() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public StudentEntity getInfo(int id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
 }
